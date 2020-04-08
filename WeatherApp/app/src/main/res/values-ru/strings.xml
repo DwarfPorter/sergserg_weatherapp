@@ -7,4 +7,7 @@
     <string name="textViewTempMesur">C</string>
     <string name="textViewAngle">o</string>
     <string name="textViewTextWeather">облачно</string>
+    <string name="textViewTime">12 : 12</string>
+    <string name="textViewDayOfWeek">Воскресенье</string>
+    <string name="textViewDate">12 апрель 2020</string>
 </resources>
