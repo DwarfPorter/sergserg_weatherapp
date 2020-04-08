@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    <string name="textViewNow">now:</string>
+    <string name="textViewCityName">Petropavlovsk - Kamchatsky</string>
 </resources>
