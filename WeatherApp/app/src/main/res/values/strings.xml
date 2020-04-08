@@ -2,4 +2,11 @@
     <string name="app_name">WeatherApp</string>
     <string name="textViewNow">now:</string>
     <string name="textViewCityName">Petropavlovsk - Kamchatsky</string>
+    <string name="textVewTemperature">+12</string>
+    <string name="textViewTempMesur">C</string>
+    <string name="textViewAngle">o</string>
+    <string name="textViewTextWeather">cloudy</string>
+    <string name="textViewTime">12 : 12</string>
+    <string name="textViewDayOfWeek">Sunday</string>
+    <string name="textViewDate">12 april 2020</string>
 </resources>

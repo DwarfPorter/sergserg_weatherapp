@@ -3,4 +3,8 @@
     <string name="app_name">Погода</string>
     <string name="textViewNow">сейчас:</string>
     <string name="textViewCityName">Петропавловск - Камчатский</string>
+    <string name="textVewTemperature">+12</string>
+    <string name="textViewTempMesur">C</string>
+    <string name="textViewAngle">o</string>
+    <string name="textViewTextWeather">облачно</string>
 </resources>
