@@ -11,4 +11,5 @@
     <string name="textViewDate">12 april 2020</string>
     <string name="show_weather_icons">Show Weather Icons</string>
     <string name="textViewEnterCity">Enter City</string>
+    <string name="textvVewRecentCities">recent cities</string>
 </resources>

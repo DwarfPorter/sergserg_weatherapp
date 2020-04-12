@@ -11,4 +11,6 @@
     <string name="textViewDayOfWeek">Воскресенье</string>
     <string name="textViewDate">12 апрель 2020</string>
     <string name="show_weather_icons">Показ иконок погоды</string>
+    <string name="textViewEnterCity">"Введите название города "</string>
+    <string name="textvVewRecentCities">вы смотрели</string>
 </resources>
