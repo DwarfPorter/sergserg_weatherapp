@@ -12,4 +12,5 @@
     <string name="show_weather_icons">Show Weather Icons</string>
     <string name="textViewEnterCity">Enter City</string>
     <string name="textvVewRecentCities">recent cities</string>
+    <string name="buttonShowWeather">Show Weather</string>
 </resources>
