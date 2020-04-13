@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewAddWeatherParam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/textViewAddWeatherParam"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxShowWind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/checkBoxShowWind"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textViewAddWeatherParam"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAddWeatherParam" />
+
+    <CheckBox
+        android:id="@+id/checkBoxShowPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/checkBoxShowPressure"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxShowWind"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxShowWind" />
+
+    <CheckBox
+        android:id="@+id/checkBoxShowRainProbably"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/checkBoxShowRainProbably"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxShowPressure"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxShowPressure" />
+
+    <Button
+        android:id="@+id/buttonSaveShanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="90dp"
+        android:text="@string/buttonSaveChanges"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
