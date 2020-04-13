@@ -13,4 +13,5 @@
     <string name="textViewEnterCity">Enter City</string>
     <string name="textvVewRecentCities">recent cities</string>
     <string name="buttonShowWeather">Show Weather</string>
+    <string name="buttonSettings">add settings</string>
 </resources>
