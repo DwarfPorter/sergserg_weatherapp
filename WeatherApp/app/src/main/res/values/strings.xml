@@ -13,8 +13,8 @@
     <string name="textViewEnterCity">Enter City</string>
     <string name="textvVewRecentCities">recent cities</string>
     <string name="buttonShowWeather">Show Weather</string>
-    <string name="buttonSettings">add settings</string>
-    <string name="textViewAddWeatherParam">"show additional "</string>
+    <string name="buttonSettings">settings</string>
+    <string name="textViewAddWeatherParam">"show additional: "</string>
     <string name="checkBoxShowWind">wind speed</string>
     <string name="checkBoxShowPressure">air pressure</string>
     <string name="checkBoxShowRainProbably">rain possibility</string>
