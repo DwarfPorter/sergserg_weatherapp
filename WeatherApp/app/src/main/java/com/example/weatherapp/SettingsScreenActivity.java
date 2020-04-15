@@ -24,5 +24,6 @@ public class SettingsScreenActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         };
+        saveChanges.setOnClickListener(listenerSaveChanges);
     }
 }
