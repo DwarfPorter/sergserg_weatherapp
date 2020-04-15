@@ -19,4 +19,5 @@
     <string name="checkBoxShowPressure">air pressure</string>
     <string name="checkBoxShowRainProbably">rain possibility</string>
     <string name="buttonSaveChanges">Save Changes</string>
+    <string name="startToast">App started!</string>
 </resources>

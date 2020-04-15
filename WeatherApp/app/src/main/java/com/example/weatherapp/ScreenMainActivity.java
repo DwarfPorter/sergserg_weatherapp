@@ -3,6 +3,7 @@ package com.example.weatherapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class ScreenMainActivity extends AppCompatActivity {
 
@@ -10,5 +11,7 @@ public class ScreenMainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_screen);
+
+
     }
 }
