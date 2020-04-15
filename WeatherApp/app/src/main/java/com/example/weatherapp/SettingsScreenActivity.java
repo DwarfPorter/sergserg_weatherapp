@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class SettingsScreenActivity extends AppCompatActivity {
     private Button saveChanges;
@@ -20,10 +21,12 @@ public class SettingsScreenActivity extends AppCompatActivity {
         listenerSaveChanges = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SettingsScreenActivity.this, SettingsScreenActivity.class);
+                Intent intent = new Intent(SettingsScreenActivity.this, ScreenMainActivity.class);
                 startActivity(intent);
             }
         };
         saveChanges.setOnClickListener(listenerSaveChanges);
     }
+
+
 }

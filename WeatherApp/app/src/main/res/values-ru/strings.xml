@@ -21,4 +21,5 @@
     <string name="checkBoxShowRainProbably">вероятность дождя</string>
     <string name="buttonSaveChanges">созранить изменения</string>
     <string name="startToast">Приложение запущено!</string>
+    <string name="doubleClickBackExit">Нажмите еще раз для выхода из приложения</string>
 </resources>

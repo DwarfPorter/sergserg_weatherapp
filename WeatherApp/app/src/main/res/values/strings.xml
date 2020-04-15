@@ -20,4 +20,11 @@
     <string name="checkBoxShowRainProbably">rain possibility</string>
     <string name="buttonSaveChanges">Save Changes</string>
     <string name="startToast">App started!</string>
+    <string name="doubleClickBackExit">"Press once again to exit!"</string>
+    <string name="textviewWindValue">3</string>
+    <string name="textviewWindSpeedMesur">m/s</string>
+    <string name="textviewPressureValue">761</string>
+    <string name="textviewPressurMesur">mm Hg</string>
+    <string name="textviewPobablyValue">78</string>
+    <string name="textviewProbablyMesur">%</string>
 </resources>
