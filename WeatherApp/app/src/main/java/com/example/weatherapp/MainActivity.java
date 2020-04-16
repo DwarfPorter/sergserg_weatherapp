@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ScreenMainActivity.class);
                 startActivity(intent);
-                Log.d(MY_LOG, "MainActivity onClick() Main Activity");
+                Log.d(MY_LOG, "MainActivity onClick() Show Weather");
             }
         };
 
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,SettingsScreenActivity.class);
                 startActivity(intent);
-                Log.d(MY_LOG, "MainActivity onClick() Settings Screen");
+                Log.d(MY_LOG, "MainActivity onClick() Settings");
             }
         };
 
